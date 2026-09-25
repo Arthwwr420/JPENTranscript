@@ -1,5 +1,5 @@
 from faster_whisper import WhisperModel
-from .config import WhisperConfig
+from config import WhisperConfig
 
 import sys
 import os
@@ -32,6 +32,7 @@ class TranscriptorJPEN():
         if config is not None:
             device = config.device
             model_path = config.model_path
+            model_size = config.model_size
         if model_path == "" or device == "" or model_size == "":
             raise ValueError("Empty model path or device")
         

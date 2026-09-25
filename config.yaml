@@ -1,6 +1,11 @@
 whisper:
-  model_size: "medium"
-  model_dir: "models/.whispercache"
-  device: "cpu"
+  model_size: "tiny"
+  model_path: "models/"
+  device: "cuda"
   compute_type: "int8"
+
+cache_dir: "models/.whispercache"
+srt: False
+overwrite: False
+
 
