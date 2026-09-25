@@ -222,3 +222,5 @@ data/
 
 # Whisper models
 models/*.pt
+models/.whispercache
+models/*
