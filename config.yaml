@@ -1,0 +1,7 @@
+whisper:
+  model_size: "medium"
+  device: "cpu"
+  compute_type: "int8"
+
+paths:
+  model_cache_dir: "models/"

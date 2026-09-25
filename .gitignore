@@ -223,3 +223,8 @@ __marimo__/
 *_to_*.pdf
 __pycache__/
 
+# Audio files and data (Not to be uploaded)
+data/
+
+# Whisper models
+models/*.pt
