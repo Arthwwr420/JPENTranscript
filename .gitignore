@@ -226,5 +226,9 @@ __pycache__/
 # Audio files and data (Not to be uploaded)
 data/
 
-# Whisper models
-models/*.pt
+# Whisper and various models
+models/*
+
+#VSCode (eww)
+.vscode/
+
