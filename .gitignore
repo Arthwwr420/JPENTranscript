@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#Generated output files for testing and development
+*_to_*.txt
+*_to_*.docx
+*_to_*.pdf
+__pycache__/
+

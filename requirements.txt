@@ -1,0 +1,5 @@
+argostranslate>=1.11.0
+python-docx>=0.8.11
+pdfplumber>=0.10.0
+reportlab>=4.0.0
+langdetect>=1.0.9
