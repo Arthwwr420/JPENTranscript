@@ -217,6 +217,12 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+#Generated output files for testing and development
+*_to_*.txt
+*_to_*.docx
+*_to_*.pdf
+__pycache__/
+
 # Audio files and data (Not to be uploaded)
 data/
 
@@ -224,3 +230,9 @@ data/
 models/*.pt
 models/.whispercache
 models/*
+# Whisper and various models
+models/*
+
+#VSCode (eww)
+.vscode/
+
